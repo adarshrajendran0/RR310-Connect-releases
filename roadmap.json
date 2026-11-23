@@ -1,0 +1,14 @@
+{
+  "items": [
+    { "title": "Bike records from the cluster", "status": "working",
+      "note": "Top speed and 0–60 from your bike's Performance records screen, in the app." },
+    { "title": "Drag-strip timing", "status": "planned",
+      "note": "Timed 0–60, 0–100 and 60–120 runs, with your best times." },
+    { "title": "Personal records", "status": "planned",
+      "note": "Fastest 0–60, top speed and longest ride — with their history." },
+    { "title": "Music and voice from the switch cube", "status": "exploring",
+      "note": "Play/pause, skip and your phone's voice assistant from the handlebar buttons." },
+    { "title": "Intercom with your helmet headset", "status": "exploring",
+      "note": "Looking at what the cluster and Bluetooth headsets allow." }
+  ]
+}
