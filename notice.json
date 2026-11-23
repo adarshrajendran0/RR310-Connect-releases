@@ -1,11 +1,11 @@
 {
-  "id": "update-v1.87",
-  "title": "RR310 Connect 1.87 is out",
-  "body": "What's new: Bike health, Home. Tap Update to install it.",
+  "id": "update-v1.91",
+  "title": "RR310 Connect 1.91 is out",
+  "body": "What's new: Look and feel, Bike photo, Backups. Tap Update to install it.",
   "action": "update",
   "appIds": [
     "app.rr310connect"
   ],
   "minVersion": 47,
-  "maxVersion": 86
+  "maxVersion": 90
 }
