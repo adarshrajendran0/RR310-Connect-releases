@@ -1,6 +1,11 @@
 {
-  "id": "christmas-2026",
-  "title": "Merry Christmas from RR310 Connect 🎄",
-  "body": "Wishing you a happy Christmas and safe, smooth rides into the new year. Thanks for riding with RR310 Connect!",
-  "appIds": ["app.rr310connect"]
+  "id": "update-v1.67",
+  "title": "RR310 Connect 1.67 is out",
+  "body": "What's new: Rides, Home, Settings, Your bike photo, Bike health, Future features, Updates. Tap Update to install it.",
+  "action": "update",
+  "appIds": [
+    "app.rr310connect"
+  ],
+  "minVersion": 47,
+  "maxVersion": 66
 }
