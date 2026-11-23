@@ -4,15 +4,15 @@ An **unofficial** companion app for the **TVS Apache RR 310 (2022–23 model)**.
 TVS Motor Company.
 
 <p align="center">
-  <img src="screenshots/01_home.jpg" width="240" alt="Home: the bike, live dash and bike health">
-  <img src="screenshots/07_ride.jpg" width="240" alt="A ride: map, score and figures">
-  <img src="screenshots/08_score.jpg" width="240" alt="Ride score: the ring and factor cards">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/01_home.jpg"><img src="screenshots/light/01_home.jpg" width="240" alt="Home: your bike, maintenance due, the live dash"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/07_ride.jpg"><img src="screenshots/light/07_ride.jpg" width="240" alt="A ride: map, score and figures"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/08_score.jpg"><img src="screenshots/light/08_score.jpg" width="240" alt="Ride score: the ring built from its factors"></picture>
 </p>
 
-<sub>Screenshots use made-up demo rides.</sub>
+<sub>Screenshots use made-up demo rides, and follow your GitHub theme (light or dark).</sub>
 
 **[⬇ Download the latest release](https://github.com/adarshrajendran0/RR310-Connect-releases/releases/latest)** ·
-[Install guide](#install-first-time--with-obtainium) · [How to use it](#how-to-use-it)
+[Install guide](#install-first-time--with-obtainium) · [How to use it](#how-to-use-it) · [Dash styles](#dash-styles)
 
 ## Connects by itself — the feature everything else builds on
 Pair your bike once. From then on, **switch the ignition on and the app connects on its own** — no opening the
@@ -22,139 +22,121 @@ phone restarts or the app updates, and saves battery while the bike is off.
 That's what makes the rest seamless:
 - **Google Maps turn-by-turn on the cluster** — start navigation as usual; arrows and distances appear on the dash
 - **Every ride recorded automatically** — map, charts, fuel and mileage, and a **ride score** for every ride
-- **Bike health** learned from your own rides, **fuel log** with refuels found automatically, **service reminders**
-- **Documents on the bike's screen** — licence, RC and insurance, sent from your phone
-- **Bike warnings**, **call alerts** (answer from the handlebar), **several bikes**, DJI Osmo Action recording
+- **Bike health** learned from your own rides, **maintenance reminders**, a **fuel log** with refuels found
+  automatically, **service reminders**
+- **Documents on the bike's screen** (licence, RC, insurance), **several bikes**, **your own bike photo**
+- **Bike warnings**, **call alerts** (answer from the handlebar), DJI Osmo Action recording
+- Smooth and modern: Material 3 Expressive motion, predictive back, light and dark themes
 
 ---
 
 ## How to use it
 
 ### 1 · Home — your bike at a glance
-<img src="screenshots/01_home.jpg" width="260" align="right" alt="Home">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/01_home.jpg"><img src="screenshots/light/01_home.jpg" width="260" alt="Home" align="right"></picture>
 
-- The **bike card** shows whether it's connected (*Searching…* while the bike is off). Tap it for bike health.
-- The **dash** mirrors the cluster live while you ride: speed, gear, revs, ride mode, fuel, range and temperatures.
-  When the bike is off you see the last known values ("Last seen …"). Tap the dash for **full screen** (landscape,
-  screen kept on — handy on a phone mount). Pick a style in Settings › Appearance › *Ride card*.
-- **Bike health** — the score, the verdict and the one thing worth looking at. Tap for the full health page.
+- The **bike card** shows whether it's connected (*Searching…* while the bike is off). Put **your own photo** on it
+  (Settings › Appearance › Bike photo).
+- **Maintenance due** — chain, tyres or service — shows right under the bike, with **Mark done**.
+- The **dash** mirrors the cluster live while you ride; when the bike is off you see the last known values. Tap it for
+  **full screen** (landscape, screen kept on). Seven [dash styles](#dash-styles) to choose from.
+- **Bike health** — the score, the verdict and the one thing worth looking at. Tap for the full page.
 
 <br clear="right">
 
 ### 2 · More than one bike
-<img src="screenshots/03_add_bike.jpg" width="260" align="right" alt="Add a bike">
+- **Swipe the bike photo left** for your next bike, or the **+ Add a bike** card at the end. Each bike keeps its own
+  rides, fuel log, health, service, documents, photo and parking spot.
+- **Whichever bike you switch on connects**, and the app shows it. If you swipe to another bike that's on nearby while
+  the connected one is parked, the connection moves over — never mid-ride.
 
-- **Swipe the bike photo left** for your next bike, or the **+ Add a bike** card at the end.
-- Each bike keeps its own rides, fuel log, health, service, documents and parking spot.
-- **Whichever bike you switch on connects**, and the app shows it. Swipe to another bike any time to look at its
-  data; if that bike is on nearby and the connected one is parked, the connection moves over. It never moves
-  mid-ride.
+### 3 · Further down the home page
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/02_home_lower.jpg"><img src="screenshots/light/02_home_lower.jpg" width="260" alt="Home, lower" align="right"></picture>
 
-<br clear="right">
-
-### 3 · Service, fuel, documents, parking
-<img src="screenshots/02_home_lower.jpg" width="260" align="right" alt="Service, fuel, documents and parking cards">
-
-Further down the home page:
-- **Next service** — counts down to the next 5,000 km service; mark it done after each visit.
+- **Next service** — counts down to the next 5,000 km service.
 - **Fuel** — mileage, cost per km and this month's spend. Tap for the fuel log.
-- **Documents** — your papers on the bike's screen (below).
 - **Last parked location** — saved when you switch off; tap to open it in Google Maps.
 - **Start Navigation** — opens Google Maps; directions then show on the cluster by themselves.
 
 <br clear="right">
 
 ### 4 · Rides — every ride, recorded for you
-<img src="screenshots/06_rides.jpg" width="260" align="right" alt="Ride history">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/06_rides.jpg"><img src="screenshots/light/06_rides.jpg" width="260" alt="Ride history" align="right"></picture>
 
-Nothing to start or stop: a ride begins when you move off and ends when you switch off.
-- Each ride shows distance, saddle time, speeds, peak revs and the fuel it used, plus its **character and score**.
-- **Combine Day** joins a day's short hops into one ride (and can split them again). **Select** to delete several.
+Nothing to start or stop: a ride begins when you move off and ends after you've switched off (a break of up to 2 hours
+doesn't split it — and an app update in that break loses nothing).
+- Each ride: distance, saddle time, speeds, peak revs, fuel used, and its **character and score**.
+- **Combine Day** joins a day's short hops into one ride (and can split them again).
 
 <br clear="right">
 
 ### 5 · A ride
-<img src="screenshots/07_ride.jpg" width="260" align="right" alt="Ride detail">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/07_ride.jpg"><img src="screenshots/light/07_ride.jpg" width="260" alt="Ride detail" align="right"></picture>
 
-- The **map** is coloured by speed; tap ⛶ for full screen.
+- The **map** is coloured by speed; ⛶ for full screen.
 - Distance, moving time, average and top speed, peak revs, **fuel used and km/l**, engine temperature.
-- **Charts** for speed, revs, throttle, temperature and more: **pinch to zoom**, two fingers to slide. The slider at
-  the bottom scrubs through the ride and shows that second's speed, revs, gear and throttle.
+- **Charts** for speed, revs, throttle, temperature: **pinch to zoom**, two fingers to slide; the slider scrubs
+  through the ride second by second.
 
 <br clear="right">
 
 ### 6 · Ride score — why you got that score
-<img src="screenshots/08_score.jpg" width="260" align="right" alt="Ride score">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/08_score.jpg"><img src="screenshots/light/08_score.jpg" width="260" alt="Ride score" align="right"></picture>
 
 Tap **why this score** on a ride.
-- The **ring is the score, built from its factors**: each segment is one factor (its length is how much it counts
-  in that ride mode), the coloured part is the points you earned. Amber = room to improve.
-- Your **character** sums up the ride — *Fuel Miser*, *Silk Ninja*, *Throttle Goblin*…
-- Scoring is judged **against the ride mode**: the same riding earns more in Track than in Rain.
-
-<br clear="right">
-
-<img src="screenshots/08b_score_deck.jpg" width="260" align="right" alt="Factor cards">
-
-- **Swipe the factor cards** — the ring lights up the factor you're on — or **tap a ring segment** to jump to it.
-  Each card shows the points as pips, what was measured, why it scored that, and **how to earn more**.
-- The **riding-style map** shows where the ride sits: hard or easy, rough or clean.
+- The **ring is the score, built from its factors**: each segment is one factor (its length is how much it counts in
+  that ride mode), the coloured part is the points you earned — amber means room to improve.
+- **Swipe the factor cards** (the ring lights up the one you're on) or **tap a ring segment**. Each card: the points as
+  pips, what was measured, why it scored that, and **how to earn more**.
+- The **riding-style map** shows where the ride sits — hard or easy, rough or clean — and your **character** sums it up.
+- Judged **against the ride mode**: the same riding earns more in Track than in Rain. Close with ✕ or Back.
 
 <br clear="right">
 
 ### 7 · Bike health
-<img src="screenshots/05_health.jpg" width="260" align="right" alt="Bike health">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/05_health.jpg"><img src="screenshots/light/05_health.jpg" width="260" alt="Bike health" align="right"></picture>
 
-The app learns what's **normal for your bike** from your own rides — cruising temperature, warm-up time, charging
-voltage, braking, mileage — and tells you when something drifts.
-- One score and a verdict at the top; **Live now** compares the engine with its usual while you ride.
-- **System cards** (cooling, warm-up, battery, warning lights, fuel, service, engine load, braking): collapsed, each
-  shows what needs attention (red first); tap for the trend and details.
-- Below: maintenance (chain, tyres, service) and your riding patterns.
+The app learns what's **normal for your bike** from your own rides — cruising temperature, warm-up time, charging,
+braking, mileage — and tells you when something drifts.
+- **Maintenance** first (chain, tyres, service — tap when done), then each **system**: collapsed, a card shows what
+  needs attention (red first); tap for the trend and details.
 
 <br clear="right">
 
-### 8 · Fuel log
-<img src="screenshots/10_fuel.jpg" width="260" align="right" alt="Fuel log">
+### 8 · Settings, documents and what's coming
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/12_settings.jpg"><img src="screenshots/light/12_settings.jpg" width="260" alt="Settings" align="right"></picture>
 
-- **Refuels are found automatically** from the fuel gauge — you get a quiet notification to add the litres and
-  amount from the pump (optional, but it makes mileage and cost exact).
-- Mileage (full tank to full tank), cost per km, spend this month. **Add refuel** for one the app missed.
-
-<br clear="right">
-
-### 9 · Documents on the bike's screen
-<img src="screenshots/11_documents.jpg" width="260" align="right" alt="Documents">
-
-Keep your licence, RC and insurance on the cluster (open them from the bike's *Documents* menu).
-1. Tap **Scan** (or **Photo**) for a slot and capture the document — it's cropped and sized for the screen.
-2. With the bike **parked and the ignition on**, tap **Send**. It takes a few minutes; the app shows the time left.
+- **Cluster display** — Google Maps directions, bike warnings, calls on the cluster, answer with the handlebar.
+- **Documents on the bike** — scan or photograph your licence, RC and insurance and send them to the bike's screen
+  (parked, ignition on).
+- **Appearance** — theme, ride card style, your bike photo.
+- **About** — changelog, **Check for updates**, **Back up** / **Restore**, **Future features** (what's being worked on,
+  and **Suggest a feature**), *Report a problem*.
 
 <br clear="right">
 
-### 10 · Settings
-<img src="screenshots/12_settings.jpg" width="260" align="right" alt="Settings">
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/14_future.jpg"><img src="screenshots/light/14_future.jpg" width="260" alt="Future features" align="right"></picture>
 
-- **Your bike** — number plate, *Add another bike*, forget a bike.
-- **Cluster display** — Google Maps directions, bike warning notifications, incoming calls on the cluster and
-  answering with the handlebar.
-- **Ride assist**, **Ride & handlebar** (when a ride ends, handlebar shortcuts), **Appearance** (theme, ride card).
-- **Permissions & battery** — everything the app needs, with a *Fix* button for each.
-- **About** — version, changelog, **Check for updates**, **Back up rides & settings** / **Restore**, *Report a
-  problem*.
+**Important notices:** when something needs your attention — a new version, a change — the app shows a notification
+and a short message when you open it. New versions open the update page with one tap.
+
+**Google Maps directions on the cluster** need *notification access*. On Android 13+ Android first blocks it for apps
+installed outside the Play Store — the app walks you through *Allow restricted settings* with a button for each step.
 
 <br clear="right">
 
-<img src="screenshots/13_cluster_display.jpg" width="260" align="right" alt="Cluster display settings">
+## Dash styles
 
-**Google Maps directions on the cluster** need *notification access*. On Android 13+ Android first blocks it for
-apps installed outside the Play Store — the app walks you through it:
-1. Settings › Cluster display › tap **Turn-by-turn from Google Maps** → pick *RR310 Connect* (tap OK if Android says
-   "Restricted setting").
-2. **Open App info** → ⋮ (top right) › **Allow restricted settings** → confirm with your PIN.
-3. Back to notification access → *RR310 Connect* → **Allow**.
+Pick one in Settings › Appearance › *Ride card*. Tap the dash on the home page for **full screen**:
 
-<br clear="right">
+<p align="center"><img src="screenshots/dash/fullscreen_dark.jpg" width="760" alt="Full-screen dash, landscape"></p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_DIAL.jpg"><img src="screenshots/dash/light_DIAL.jpg" width="300" alt="Dial"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_TFT.jpg"><img src="screenshots/dash/light_TFT.jpg" width="300" alt="TFT"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_RACE.jpg"><img src="screenshots/dash/light_RACE.jpg" width="300" alt="Race"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_CURVE.jpg"><img src="screenshots/dash/light_CURVE.jpg" width="300" alt="Curve"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_SWEEP.jpg"><img src="screenshots/dash/light_SWEEP.jpg" width="300" alt="Sweep"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_EDGE.jpg"><img src="screenshots/dash/light_EDGE.jpg" width="300" alt="Edge"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_CLASSIC.jpg"><img src="screenshots/dash/light_CLASSIC.jpg" width="300" alt="Classic"></picture>
+</p>
 
 ---
 
