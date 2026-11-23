@@ -4,12 +4,11 @@ An **unofficial** companion app for the **TVS Apache RR 310 (2022–23 model)**.
 TVS Motor Company.
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/01_home.jpg"><img src="screenshots/light/01_home.jpg" width="240" alt="Home: your bike, maintenance due, the live dash"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/07_ride.jpg"><img src="screenshots/light/07_ride.jpg" width="240" alt="A ride: map, score and figures"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/08_score.jpg"><img src="screenshots/light/08_score.jpg" width="240" alt="Ride score: the ring built from its factors"></picture>
+  <img src="screenshots/light/01_home.jpg" width="200" alt="Home: your bike, maintenance due, the live dash (light)"> <img src="screenshots/light/07_ride.jpg" width="200" alt="A ride: map, score and figures (light)"> <img src="screenshots/light/08_score.jpg" width="200" alt="Ride score: the ring built from its factors (light)"><br>
+  <img src="screenshots/dark/01_home.jpg" width="200" alt="Home: your bike, maintenance due, the live dash (dark)"> <img src="screenshots/dark/07_ride.jpg" width="200" alt="A ride: map, score and figures (dark)"> <img src="screenshots/dark/08_score.jpg" width="200" alt="Ride score: the ring built from its factors (dark)">
 </p>
 
-<sub>Screenshots use made-up demo rides, and follow your GitHub theme (light or dark).</sub>
+<sub>Screenshots use made-up demo rides — light and dark theme side by side.</sub>
 
 **[⬇ Download the latest release](https://github.com/adarshrajendran0/RR310-Connect-releases/releases/latest)** ·
 [Install guide](#install-first-time--with-obtainium) · [How to use it](#how-to-use-it) · [Dash styles](#dash-styles)
@@ -33,7 +32,7 @@ That's what makes the rest seamless:
 ## How to use it
 
 ### 1 · Home — your bike at a glance
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/01_home.jpg"><img src="screenshots/light/01_home.jpg" width="260" alt="Home" align="right"></picture>
+<img src="screenshots/light/01_home.jpg" width="180" alt="Home (light)" align="right"><img src="screenshots/dark/01_home.jpg" width="180" alt="Home (dark)" align="right">
 
 - The **bike card** shows whether it's connected (*Searching…* while the bike is off). Put **your own photo** on it
   (Settings › Appearance › Bike photo).
@@ -51,7 +50,7 @@ That's what makes the rest seamless:
   the connected one is parked, the connection moves over — never mid-ride.
 
 ### 3 · Further down the home page
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/02_home_lower.jpg"><img src="screenshots/light/02_home_lower.jpg" width="260" alt="Home, lower" align="right"></picture>
+<img src="screenshots/light/02_home_lower.jpg" width="180" alt="Home, lower (light)" align="right"><img src="screenshots/dark/02_home_lower.jpg" width="180" alt="Home, lower (dark)" align="right">
 
 - **Next service** — counts down to the next 5,000 km service.
 - **Fuel** — mileage, cost per km and this month's spend. Tap for the fuel log.
@@ -61,7 +60,7 @@ That's what makes the rest seamless:
 <br clear="right">
 
 ### 4 · Rides — every ride, recorded for you
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/06_rides.jpg"><img src="screenshots/light/06_rides.jpg" width="260" alt="Ride history" align="right"></picture>
+<img src="screenshots/light/06_rides.jpg" width="180" alt="Ride history (light)" align="right"><img src="screenshots/dark/06_rides.jpg" width="180" alt="Ride history (dark)" align="right">
 
 Nothing to start or stop: a ride begins when you move off and ends after you've switched off (a break of up to 2 hours
 doesn't split it — and an app update in that break loses nothing).
@@ -71,7 +70,7 @@ doesn't split it — and an app update in that break loses nothing).
 <br clear="right">
 
 ### 5 · A ride
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/07_ride.jpg"><img src="screenshots/light/07_ride.jpg" width="260" alt="Ride detail" align="right"></picture>
+<img src="screenshots/light/07_ride.jpg" width="180" alt="Ride detail (light)" align="right"><img src="screenshots/dark/07_ride.jpg" width="180" alt="Ride detail (dark)" align="right">
 
 - The **map** is coloured by speed; ⛶ for full screen.
 - Distance, moving time, average and top speed, peak revs, **fuel used and km/l**, engine temperature.
@@ -81,7 +80,7 @@ doesn't split it — and an app update in that break loses nothing).
 <br clear="right">
 
 ### 6 · Ride score — why you got that score
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/08_score.jpg"><img src="screenshots/light/08_score.jpg" width="260" alt="Ride score" align="right"></picture>
+<img src="screenshots/light/08_score.jpg" width="180" alt="Ride score (light)" align="right"><img src="screenshots/dark/08_score.jpg" width="180" alt="Ride score (dark)" align="right">
 
 Tap **why this score** on a ride.
 - The **ring is the score, built from its factors**: each segment is one factor (its length is how much it counts in
@@ -94,7 +93,7 @@ Tap **why this score** on a ride.
 <br clear="right">
 
 ### 7 · Bike health
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/05_health.jpg"><img src="screenshots/light/05_health.jpg" width="260" alt="Bike health" align="right"></picture>
+<img src="screenshots/light/05_health.jpg" width="180" alt="Bike health (light)" align="right"><img src="screenshots/dark/05_health.jpg" width="180" alt="Bike health (dark)" align="right">
 
 The app learns what's **normal for your bike** from your own rides — cruising temperature, warm-up time, charging,
 braking, mileage — and tells you when something drifts.
@@ -104,7 +103,7 @@ braking, mileage — and tells you when something drifts.
 <br clear="right">
 
 ### 8 · Settings, documents and what's coming
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/12_settings.jpg"><img src="screenshots/light/12_settings.jpg" width="260" alt="Settings" align="right"></picture>
+<img src="screenshots/light/12_settings.jpg" width="180" alt="Settings (light)" align="right"><img src="screenshots/dark/12_settings.jpg" width="180" alt="Settings (dark)" align="right">
 
 - **Cluster display** — Google Maps directions, bike warnings, calls on the cluster, answer with the handlebar.
 - **Documents on the bike** — scan or photograph your licence, RC and insurance and send them to the bike's screen
@@ -115,7 +114,7 @@ braking, mileage — and tells you when something drifts.
 
 <br clear="right">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dark/14_future.jpg"><img src="screenshots/light/14_future.jpg" width="260" alt="Future features" align="right"></picture>
+<img src="screenshots/light/14_future.jpg" width="180" alt="Future features (light)" align="right"><img src="screenshots/dark/14_future.jpg" width="180" alt="Future features (dark)" align="right">
 
 **Important notices:** when something needs your attention — a new version, a change — the app shows a notification
 and a short message when you open it. New versions open the update page with one tap.
@@ -132,10 +131,10 @@ Pick one in Settings › Appearance › *Ride card*. Tap the dash on the home pa
 <p align="center"><img src="screenshots/dash/fullscreen_dark.jpg" width="760" alt="Full-screen dash, landscape"></p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_DIAL.jpg"><img src="screenshots/dash/light_DIAL.jpg" width="300" alt="Dial"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_TFT.jpg"><img src="screenshots/dash/light_TFT.jpg" width="300" alt="TFT"></picture><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_RACE.jpg"><img src="screenshots/dash/light_RACE.jpg" width="300" alt="Race"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_CURVE.jpg"><img src="screenshots/dash/light_CURVE.jpg" width="300" alt="Curve"></picture><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_SWEEP.jpg"><img src="screenshots/dash/light_SWEEP.jpg" width="300" alt="Sweep"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_EDGE.jpg"><img src="screenshots/dash/light_EDGE.jpg" width="300" alt="Edge"></picture><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/dash/dark_CLASSIC.jpg"><img src="screenshots/dash/light_CLASSIC.jpg" width="300" alt="Classic"></picture>
+  <img src="screenshots/dash/light_DIAL.jpg" width="330" alt="Dial (light)"> <img src="screenshots/dash/dark_DIAL.jpg" width="330" alt="Dial (dark)"> <img src="screenshots/dash/light_TFT.jpg" width="330" alt="TFT (light)"> <img src="screenshots/dash/dark_TFT.jpg" width="330" alt="TFT (dark)"><br>
+  <img src="screenshots/dash/light_RACE.jpg" width="330" alt="Race (light)"> <img src="screenshots/dash/dark_RACE.jpg" width="330" alt="Race (dark)"> <img src="screenshots/dash/light_CURVE.jpg" width="330" alt="Curve (light)"> <img src="screenshots/dash/dark_CURVE.jpg" width="330" alt="Curve (dark)"><br>
+  <img src="screenshots/dash/light_SWEEP.jpg" width="330" alt="Sweep (light)"> <img src="screenshots/dash/dark_SWEEP.jpg" width="330" alt="Sweep (dark)"> <img src="screenshots/dash/light_EDGE.jpg" width="330" alt="Edge (light)"> <img src="screenshots/dash/dark_EDGE.jpg" width="330" alt="Edge (dark)"><br>
+  <img src="screenshots/dash/light_CLASSIC.jpg" width="330" alt="Classic (light)"> <img src="screenshots/dash/dark_CLASSIC.jpg" width="330" alt="Classic (dark)">
 </p>
 
 ---
