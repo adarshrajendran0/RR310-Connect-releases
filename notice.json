@@ -1,11 +1,11 @@
 {
-  "id": "update-v1.75",
-  "title": "RR310 Connect 1.75 is out",
-  "body": "What's new: Ride score, Under the hood, Smoother everywhere. Tap Update to install it.",
+  "id": "update-v1.81",
+  "title": "RR310 Connect 1.81 is out",
+  "body": "What's new: Problem reports, Ride score, Backups, Notices, Back gesture. Tap Update to install it.",
   "action": "update",
   "appIds": [
     "app.rr310connect"
   ],
   "minVersion": 47,
-  "maxVersion": 74
+  "maxVersion": 80
 }
