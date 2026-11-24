@@ -1,11 +1,11 @@
 {
-  "id": "update-v1.113",
-  "title": "RR310 Connect 1.113 is out",
-  "body": "What's new: Look and feel. Tap Update to install it.",
+  "id": "update-v1.114",
+  "title": "RR310 Connect 1.114 is out",
+  "body": "What's new: Look and feel, Ride score. Tap Update to install it.",
   "action": "update",
   "appIds": [
     "app.rr310connect"
   ],
   "minVersion": 47,
-  "maxVersion": 112
+  "maxVersion": 113
 }
